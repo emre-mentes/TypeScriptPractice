@@ -37,4 +37,4 @@ console.log(stringToBoolean);//space dahil her türlü karakter iceren stirngler
 
 let EmptyString ="";
 let emptyStringToBoolean = Boolean(EmptyString);
-console.log(emptyStringToBoolean);//Hiclik false kabul edilir, harici hertürlü string true kabul edilir
+console.log(emptyStringToBoolean);//Hiclik false kabul edilir, harici her türlü string true kabul edilir
