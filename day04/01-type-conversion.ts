@@ -11,10 +11,12 @@ let invalidString : string ="abc15";
 let invalidNumber : number = Number(invalidString);
 console.log(invalidNumber);//NaN
 
-//örnek 3==> boolean i stringe döünstürme
+//örnek 3==> boolean i stringe dönüstürme
 let booleanValue : boolean = true;
-let booeanToString : string = String(booleanValue);
-console.log(booeanToString.length);//true artik bir string oldugu icin length özelligini kullandik ve 4 aldık
+let booleanToString : string = String(booleanValue);
+console.log(booleanToString.length);//4
+console.log(booleanValue.length); //undefined
+console.log(booleanToString.length);//true artik bir string oldugu icin length özelligini kullandik ve 4 aldık
 
 
 //Diger datatiplerini booleana dönüstürme
