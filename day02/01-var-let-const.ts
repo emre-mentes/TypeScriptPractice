@@ -2,7 +2,7 @@
 var x = 5;
 var x = 6;
 
-//let => Blocak kapsamli değiskenler icin kullanilan keyworddur, ve let ile tanimlanan bir değiskeni tekrar tanimlayamayiz; ancak degerini güncelleyebiliriz
+//let => Block kapsamli değiskenler icin kullanilan keyworddur, ve let ile tanimlanan bir değiskeni tekrar tanimlayamayiz; ancak degerini güncelleyebiliriz
 let y = 10;
 //let y = 15;
 y =15;
