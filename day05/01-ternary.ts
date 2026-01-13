@@ -22,6 +22,7 @@ console.log(message);
 
 let not: number = 13;
 let gecmeSiniri = 50;
+
 let sonuc = not >= 50 ? "Gecti" : "Kaldi";
 console.log(`Ogrenci notu ${not}. Sonuc ${sonuc}`);
 
