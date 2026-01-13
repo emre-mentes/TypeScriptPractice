@@ -1,5 +1,6 @@
 /*TypeScript Data Types:
-Not 1: TypeScript, JavaScript'in üst kümesi olduğu için JavaScript'in tüm type'larını içerir  (string, number, boolean, undefined, null, symbol, bigint, object, function, array)
+Not 1: TypeScript, JavaScript'in üst kümesi olduğu için JavaScript'in tüm type'larını içerir  
+(string, number, boolean, undefined, null, symbol, bigint, object, function, array)
 
 Not 2: Typescript ile variable olustururken javascriptten farkli olarak datatype belirtebiliriz
 */
