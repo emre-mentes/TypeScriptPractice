@@ -12,3 +12,10 @@ console.log(`Ilk TypeScript i degistirir ${yeniCumle}`);//Ilk TypeScript i degis
 //replaceAll(eski,yeni); Metin icinde buldugu tum ifadeleri yenisi değistirir
 let tumDegisim : string = temizCumle.replaceAll("TypeScript","TS");
 console.log(` Tüm Typescriptleri değistirir ${tumDegisim} `);// Tüm Typescriptleri değistirir TS öğreniyorum. TS güçlüdür.
+
+//split(): metni verilen ayiriciya göre parcalara ayirir ve sonucu array return eder.
+let kelimeler =temizCumle.split(" "); //bosluga göre ayir
+console.log(kelimeler); //[ 'TypeScript', 'öğreniyorum.', 'TypeScript', 'güçlüdür.' ]
+
+//charAt(): verilen indexteki karakteri return eder, index sifirdan baslar
+console.log(`cümlenin 4. karakteri ${cumle.charAt(4)}`);
