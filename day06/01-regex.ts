@@ -91,3 +91,6 @@ console.log("rakamsayisi ", rakamSayisi); //rakamsayisi  4
 //5) Hazir kelimesini OK ile değistirelim
 let yeniKelime: string = text.replaceAll(/\bHazir\b/g, "OK");
 console.log("yenikelime", yeniKelime);
+
+//Not => Hazir kelimesinin basina ve sonuna \b (boundry-sınır) koyarsak yanlis kelimeleri secmez, 
+// bagimsiz bir kelime olarak Hazir kelimelerini sece
