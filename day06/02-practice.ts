@@ -39,3 +39,9 @@ console.log("result1 =>", result1);//**** **** **** 6789
 //ikinci yol
 let result2 = firstPart.concat(lastPart);
 console.log("result2 =>", result2);//**** **** **** 6789
+
+//kisayolu
+let masked = cardNum.slice(0, -4).replace(/\d/g, '*') + cardNum.slice(-4);
+console.log(masked);
+//Acıklama: slice(0, -4) ile son 4 haneyi ayırıyoruz, o kısımdaki tüm rakamları replace(/\d/g,'*') ile yıldızlıyoruz, 
+// sonra son 4 haneyi ekliyoruz. Boşluklar olduğu gibi korunur.
