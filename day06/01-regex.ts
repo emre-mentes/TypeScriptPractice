@@ -47,17 +47,17 @@
 //
 // Tüm küçük harfler HARİÇ:
 // [^a-z]
-//  → küçük harf olmayan her karakter (rakam, boşluk, sembol, büyük harf vb.)
+//  → küçük harf olmayan her karakter (rakam, bosluk, sembol, büyük harf vb.)
 //
 // Tüm harfler HARİÇ:
 // [^a-zA-Z]
-//  → İngilizce harf olmayan her karakter (rakam, boşluk, sembol vb.)
+//  → İngilizce harf olmayan her karakter (rakam, bosluk, sembol vb.)
 //
 // NOT:
-// - Köşeli parantez içinde ^ kullanırsan "HARİÇ" anlamına gelir: [^...]
+// - Köseli parantez içinde ^ kullanırsan "HARİC" anlamına gelir: [^...]
 // =======================================================
 
-let text: string ="  TypeScript ile REGEX ogrenmeye Hazir misin? Haziran 2026 +,.=%$ ";
+let text: string ="  TypeScript ile REGEX ögrenmeye Hazir misin? Haziran 2026 +,.=%$ ";
 
 //1) Tüm özel karakterleri temizleme
 let cleanText: string = text.replaceAll(/[^a-zA-Z0-9\s]/g, "");
