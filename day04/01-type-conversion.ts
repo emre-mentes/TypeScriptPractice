@@ -1,9 +1,12 @@
+
 //Number() fonksiyonu String data tipini number data tipine dönüstürür
+
 
 //örnek 1 ==> gecerli bir stringi dönüstürme
 let price : string = "200";
 let numericPrice :number = Number(price);
 console.log(numericPrice);//200
+
 
 //örnek 2 ==> gecersiz bir stringi dönüstürme
 //Not => abc15 stringi bir sayıya dönüstürülemez bu yüzden NaN verir
@@ -25,9 +28,11 @@ let numZero = 0;
 let booleanZero : boolean=Boolean(numZero);
 console.log(booleanZero);//0 sayisi false kabul edilir
 
+
 let num : number = -5;
 let booleanNumber: boolean = Boolean(num);
 console.log(booleanNumber);//true 0 dan farkli tüm sayilar true kabul edilir
+
 
 //örnek 5==>
 let nonEmptyString =" ";
