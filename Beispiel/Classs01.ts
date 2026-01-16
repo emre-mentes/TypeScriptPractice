@@ -9,3 +9,7 @@ let armut :number=22;
 let kiraz="meyve" ;
 console.log(typeof(armut))
 console.log(typeof(kiraz))
+
+let emre:number[]= [1,2,3,]
+console.log(emre.length)
+console.log(emre[])
