@@ -1,3 +1,4 @@
+
 // =======================================================
 // ÖRNEK 3 (GÜNCEL): SİPARİŞ KODUNDAN KATEGORİ BELİRLEME
 // =======================================================
@@ -13,6 +14,7 @@
 // - Diğer durumlar          → Bilinmeyen kategori
 // orderCode = "Order-Code: TR-24589-A"
 // =======================================================
+
 let orderCode: string = "Order-Code: TR-24589-A";
 let digitsOnly: string = orderCode.replaceAll(/[^0-9]/g, ""); //rakam haric herseyi hiclikle değistir
 console.log("sadece rakamlar =>", digitsOnly); //24589
