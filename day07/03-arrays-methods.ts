@@ -1,4 +1,3 @@
-
 let ogrenciListesi : string [] = ["Azer","Buket","Beyza","Hüseyin","Suphi"];
 console.log("ogrenci listesi ilk hali",ogrenciListesi);
 
