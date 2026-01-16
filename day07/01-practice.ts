@@ -33,4 +33,5 @@ switch (firstDigit) {
     break;
   default :
     console.log("Bilinmeyen kategori");
+    break;
 }
