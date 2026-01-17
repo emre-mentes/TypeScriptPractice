@@ -1,3 +1,4 @@
+
 /*
 for(BaslangicDegeri; LoopCalismaSarti; Artis/Azalis ){
     calismasini istedigimiz kodlar
