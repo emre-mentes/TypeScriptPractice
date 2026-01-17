@@ -57,3 +57,11 @@ for (let i = text.length - 1; i >= 0; i--) {
 }
 console.log("text ", text);
 console.log("ters", ters);
+
+//homework 
+/* =============================================================================
+ * GÖREV 2: PALINDROME KONTROLÜ
+ * =============================================================================
+ * PROBLEM: Bir kelimenin "Palindrome" olup olmadığını anlamak. 
+ * (Palindrome: Düzden ve tersten okunuşu aynı olan kelimeler. Örn: CIVIC, nalan)
+ */
