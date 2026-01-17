@@ -1,3 +1,4 @@
+
 //Arrays
 
 //birinci yol daha yaygın olarak kullanilir
