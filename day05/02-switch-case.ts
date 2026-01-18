@@ -1,3 +1,4 @@
+
 //Example : verilen mevsime göre uygun mesaj veren kodu yaziniz
 
 let mevsim: string = "sonbahar";
