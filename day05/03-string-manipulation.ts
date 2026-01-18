@@ -1,3 +1,4 @@
+
 let cumle: string = " TypeScript öğreniyorum. TypeScript güçlüdür. ";
 
 //length : verilen stringin karakter sayısını verir
