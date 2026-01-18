@@ -1,3 +1,4 @@
+
 //SYNTAX
 // condition ? valueIfTrue : valueIfFalse
 
