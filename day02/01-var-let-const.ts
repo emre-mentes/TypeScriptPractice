@@ -1,3 +1,4 @@
+
 //var => Eski degisken tanimlama yöntemidir ve artik kullanilmasi önerilmez, cünkü var keywordu ile değiskenler tekrar tanimlanabilir ve degerleri güncellenebilir
 var x = 5;
 var x = 6;
