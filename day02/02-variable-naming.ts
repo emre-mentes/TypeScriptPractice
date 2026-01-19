@@ -49,6 +49,5 @@ interface KullaniciProfili{
 const PI_NUMBER =3.14;
 const MAX_NUMBER = 15;
 
-
 //Bu dosya artik bir moduldur.
 export {};
