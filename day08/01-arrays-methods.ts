@@ -11,7 +11,8 @@ console.log("Mehmet array de varmi", mehmetVarMi);//false
 
 //join() methodu bir arrayin elemanlarini birlestirerek tek bir string haline getirir
 //default olarak elemanlar arasina virgul koyar
-//istenirse farkli bir ayirici da belirtilebilir    
+//istenirse farkli bir ayirici da belirtilebilir   
+ 
 let ogrencilerVirgullu : string =ogrenciListesi.join();
 console.log("Virgullu ogrenci listesi",ogrencilerVirgullu);//Virgullu ogrenci listesi Azer,Buket,Beyza,Hüseyin,Suphi
 
