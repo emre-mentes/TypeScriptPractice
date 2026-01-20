@@ -32,9 +32,25 @@ while (counter < 5) {
 let sayi: number = 1;
 
 while (sayi < 7) {
-
-if(sayi%2===0){
+  if (sayi % 2 === 0) {
     console.log(sayi);
-}
+  }
   sayi++;
 }
+
+// =============================================================================
+// GÖREV: 1000 TL'lik bir bakiyeden, para bitene kadar her defasinda 200 TL çeken ve bakiye 200 TL'den az kaldığı an (limit yetersizleşince) sistemi durduran kodu yaziniz
+// =============================================================================
+
+let hesapBakiyesi: number = 1000;
+let cekilenMiktar: number = 200;
+
+while (hesapBakiyesi >= cekilenMiktar) {
+  //hesapBakiyesi cekilen miktardan buyuk veya esit oldugu müddetce calismaya devam et
+  hesapBakiyesi = hesapBakiyesi - cekilenMiktar;
+
+  console.log(
+    `${cekilenMiktar} TL cekildi. Yeni Bakiyeniz ${hesapBakiyesi} TL`,
+  );
+}
+console.log("Limit yetersiz!!, Para cekme islemi sonlandirildi!!");
