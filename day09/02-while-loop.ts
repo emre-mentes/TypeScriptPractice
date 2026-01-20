@@ -26,3 +26,15 @@ while (counter < 5) {
   //artirma / azaltma
   counter++;
 }
+
+//GÖREV:1'den 6'ya (dahil) kadar olan ÇİFT sayıları while döngüsü ile console'a yazdır.
+
+let sayi: number = 1;
+
+while (sayi < 7) {
+
+if(sayi%2===0){
+    console.log(sayi);
+}
+  sayi++;
+}
