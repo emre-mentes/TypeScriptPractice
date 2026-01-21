@@ -18,6 +18,7 @@ let sayilar: number[] = [3, 8, 15, 22, 7, 10];
 let ciftSayilar: number[] = [];
 let tekSayilar: number[] = [];
 
+
 for (let sayi of sayilar) {
   if (sayi % 2 === 0) {
     //sayi sepetindeki deger cift ise burasi calisir
@@ -27,8 +28,11 @@ for (let sayi of sayilar) {
     tekSayilar.push(sayi);
   }
 }
+
+
 console.log("Cift sayilar : ", ciftSayilar);
 console.log("Tek sayilar : ", tekSayilar);
+
 
 
 // Ornek : for...of kullanarak bir kelimedeki sesli ve sessiz harfleri ayırarak her birisini string array de toplayin
