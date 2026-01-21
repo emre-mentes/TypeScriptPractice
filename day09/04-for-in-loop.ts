@@ -26,5 +26,6 @@ for (let index in notlar) {
     kalanSayisi++;
   }
 }
-console.log(`Gecen ogrenci sayisi ${gecenSayisi}`);
-console.log(`Kalan ogrenci sayisi ${kalanSayisi}`);
+
+console.log(`Gecen ogrenci sayisi = ${gecenSayisi}`);
+console.log(`Kalan ogrenci sayisi = ${kalanSayisi}`);
