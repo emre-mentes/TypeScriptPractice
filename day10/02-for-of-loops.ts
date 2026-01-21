@@ -18,7 +18,9 @@ for (let name of names) {
 }
 console.log("validNames :", validNames); //validNames : [ 'Ali', 'Ayşe', 'Mehmet', 'Zeynep' ]
 
+
 // GÖREV: Bir isim dizisindeki (array) en uzun ismi for...of kullanarak bulun ve en sonda console.log ile yazdırın.
+
 const isimler: string[] = ["Ali", "Zeynep", "Mehmet", "Ayşe", "Mustafa"];
 let enUzunIsim: string = "";
 
