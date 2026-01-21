@@ -50,5 +50,5 @@ for (let harf of kelime ){
     }
 }
 
-console.log("sesliharfler arrayi:",sesliHarfler);
-console.log("sessizharfler arrayi:", sessizHarfler);
+console.log("sesliharfler arrayi:" , sesliHarfler);
+console.log("sessizharfler arrayi:" ,  sessizHarfler);
