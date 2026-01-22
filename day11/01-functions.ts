@@ -24,6 +24,7 @@ function mesajYaz(): void {
   console.log("Function Declaration ile ilk görev tanimlandi");
 }
 
+
 //Function Call : Function ismi ve parantez kullanarak calis emri veririz
 console.log(`
 ==============
@@ -56,10 +57,10 @@ console.log("sonuc:",sonuc);
 function selamVer(ad : string ) : string{
     return `Merhaba, ${ad}! Hoş geldin.`;
 }
+
 const text : string = selamVer("Ayse");
 console.log(text);
 console.log(selamVer("Mehmet"));
-
 
 
 
@@ -81,5 +82,6 @@ console.log(tekMiCiftMi1(5));
 function tekMiCiftMi2(sayi: number): string {
    return sayi % 2 === 0 ?  `${sayi} cift bir sayidir` :  `${sayi} tek bir sayidir`;
 }
+
 console.log("ternary yöntemi ",tekMiCiftMi2(5));
 console.log("ternary yöntemi ",tekMiCiftMi2(4));
