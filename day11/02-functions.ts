@@ -1,3 +1,4 @@
+
 /*
  Hoisting Nedir?
   -JavaScript/TypeScript te function declaration yöntemi ile bir fonksiyon tanimlandiginda sanki dosyanin basina tasinmis gibi davranir. Buna hoisting (yukari cekilme)denir.
