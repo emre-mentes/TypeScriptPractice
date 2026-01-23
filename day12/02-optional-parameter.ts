@@ -2,6 +2,7 @@
 //Optional Parameter (opsiyonel yani isteğe bağli parametreler)
 //Not ==> Optional parametreler asla zorunlu parametrelerden önce gelemez, optional her zaman sonda olmalidir
 
+
 function kullaniciKaydet(isim: string, telefon?: string): void {
   console.log("Kaydedilen isim :", isim);
   if (telefon) {
@@ -21,6 +22,7 @@ function greet(name?: string): string {
     return `Hello, stranger!`;
   }
 }
+
 
 console.log(greet());
 console.log(greet("Ali"));
