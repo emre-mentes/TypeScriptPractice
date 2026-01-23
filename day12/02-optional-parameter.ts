@@ -8,6 +8,7 @@ function kullaniciKaydet(isim: string, telefon?: string): void {
     console.log("Kaydedilen telefon :", telefon);
   }
 }
+
 kullaniciKaydet("Ahmet");
 kullaniciKaydet("Ahmet", "151515155");
 
@@ -20,5 +21,6 @@ function greet(name?: string): string {
     return `Hello, stranger!`;
   }
 }
+
 console.log(greet());
 console.log(greet("Ali"));
