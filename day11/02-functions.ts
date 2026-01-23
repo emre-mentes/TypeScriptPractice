@@ -3,8 +3,11 @@
  Hoisting Nedir?
   -JavaScript/TypeScript te function declaration yöntemi ile bir fonksiyon tanimlandiginda sanki dosyanin basina tasinmis gibi davranir. Buna hoisting (yukari cekilme)denir.
 */
+
 //2) Function Expression
+
 //Function Expression yönteminde fonksiyonlar yukari cekilmez (No Hoisting)
+
 //mesajYazExpression();
 const mesajYazExpression = function():void{
     console.log("Function Expression yöntemi ile tanimlandi")
@@ -43,4 +46,4 @@ const sifreDurumu = function(sifre:string):string{
     }
 }
 console.log(sifreDurumu("1234567"))
-console.log(sifreDurumu("12345678"))
+console.log(sifreDurumu("gfdgfdgfdgfdgfdgfdgdfgfdgfdg"))
