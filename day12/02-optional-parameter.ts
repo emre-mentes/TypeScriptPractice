@@ -23,6 +23,5 @@ function greet(name?: string): string {
   }
 }
 
-
 console.log(greet());
 console.log(greet("Ali"));
