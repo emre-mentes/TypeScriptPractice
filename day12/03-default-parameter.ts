@@ -17,5 +17,6 @@ function raporOlustur(baslik: string, format: string = "PDF"): void {
   console.log(`Rapor Basligi : ${baslik}`);
   console.log(`Kullanilan Format : ${format}`);
 }
+
 raporOlustur("Login Page");
 raporOlustur("Login Page","HTML");
