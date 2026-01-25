@@ -10,23 +10,29 @@ console.log("Suanki zaman tolocaleString()=>",suankiZaman.toLocaleString());//Su
 let belirliBirTarih: Date = new Date(2027, 9, 19);
 console.log("belirliBirTarih 2027,9,19", belirliBirTarih);
 
+
 //Belirli bir tarih ve saati nasil olusturabiliriz?
 let tamZaman :Date = new Date(2027,9,19,15,45,0);
 console.log("TamTarih ve zaman",tamZaman);//2027-10-19T12:45:00.000Z
+
 
 //Ocak =>0
 let testTarihi:Date = new Date(2024,0,15);
 console.log(testTarihi.toLocaleString());//15.01.2024 00:00:00
 
+
 //Date objectinin icindeki yıl bilgisini verir
 console.log("getFullyear=>",testTarihi.getFullYear());//2024
+
 
 //Date objectinin icindeki ay bilgisini 0-11 arasinda döner, Ocak=0,Subat 1...
 console.log("getMonth=>", testTarihi.getMonth());
 console.log("getMonth=>", testTarihi.getMonth()+1);
 
+
 //getDate=> 15 ==> Ayin kacinci günü oldugunu döner
 console.log("getDate=>", testTarihi.getDate());//getDate=> 15
+
 
 //getDay=> Haftanin gününü index olarak verir.
 //0=Pazar, 1=Pazartesi, 2=Sali...
