@@ -1,3 +1,4 @@
+
 let suankiZaman: Date = new Date();
 console.log("Suanki zaman =>", suankiZaman); //Suanki zaman => 2026-01-23T19:08:14.140Z
 console.log("Suanki zaman tolocaleString()=>",suankiZaman.toLocaleString());//Suanki zaman tolocaleString()=> 23.01.2026 22:08:1400:00:00
