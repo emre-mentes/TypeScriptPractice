@@ -1,3 +1,4 @@
+
 //Verilen 2 sayiyi toplayan ve sonucu return eden function olusturalim
 function addTwoNumber(a: number, b: number): number {
   return a + b;
