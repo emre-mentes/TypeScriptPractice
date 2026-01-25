@@ -3,6 +3,7 @@
 function addTwoNumber(a: number, b: number): number {
   return a + b;
 }
+
 console.log(addTwoNumber(2, 3));
 
 //Verilen 3 sayiyi toplayan ve sonucu return eden function olusturalim
