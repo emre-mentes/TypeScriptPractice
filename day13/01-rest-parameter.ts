@@ -22,6 +22,7 @@ console.log(addThreeNumber(2, 3, 5));
 
     3) Rest parameter her zaman en son parametre olmalidir
 */
+
 function sumNumbers(...numbers: number[]): number {
   let total: number = 0;
 
@@ -46,6 +47,7 @@ printNames("Ali","Veli","Ayse");
 function countElements(...elements:any[]):number{
    return elements.length;
 }
+
 console.log(countElements());//0
 console.log(countElements("ali",1,true));//3
 console.log(countElements(2,3,false));//3
