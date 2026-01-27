@@ -1,3 +1,4 @@
+
 //1. adim interface kullanarak olusturmak istedigimiz objectlerimiz icin bir sablon hazirladik
 interface IOyuncu {
   isim: string;
