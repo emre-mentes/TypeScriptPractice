@@ -1,3 +1,4 @@
+
 //1) Object Literal (süslü parantezler ile olusturmak)
 
 const person = {
