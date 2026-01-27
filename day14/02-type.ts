@@ -1,3 +1,4 @@
+
 //Type : bir objectin hangi alanlardan olusacağını ve bu alanlarin tipini tarif eden bir sablondur
 //syntax:
 type TipAdi = {
