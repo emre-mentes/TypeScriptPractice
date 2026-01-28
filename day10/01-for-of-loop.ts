@@ -34,7 +34,6 @@ console.log("Cift sayilar : ", ciftSayilar);
 console.log("Tek sayilar : ", tekSayilar);
 
 
-
 // Ornek : for...of kullanarak bir kelimedeki sesli ve sessiz harfleri ayırarak her birisini string array de toplayin
 
 let kelime = "bilgisayar"; 
