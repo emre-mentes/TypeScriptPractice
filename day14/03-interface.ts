@@ -19,7 +19,6 @@ const yeniOyuncu: IOyuncu = {
 };
 
 
-
 //1) Kitap interface i tanimliyoruz
 interface IKitap {
    readonly adi : string; //readonly keywordunu koyarak name alanini kilitledik, bu alan deger atandiktan sonra değistirilemez
