@@ -20,7 +20,6 @@ console.log(araba)
 console.log(araba["model"])
 console.log(araba["motor"])
 
-
 //Bir object den veri okuma ikinci yol
 const dısardanGelen = "model";
 console.log("dynamic yontem", araba[dısardanGelen]);//
