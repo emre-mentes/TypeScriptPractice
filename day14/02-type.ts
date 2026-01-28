@@ -11,6 +11,7 @@ type Person = {
   city: string;
   job?: string;//job alani optional
 };
+
 //Person Tipine uygun bir object olusturma
 const mehmetObjecti: Person = {
   age: 30,
