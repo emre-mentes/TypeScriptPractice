@@ -11,7 +11,7 @@ interface IOyuncu {
 }
 
 //2. adim
-const firsName: string = "ali";
+const firstName: string = "ali";
 const yeniOyuncu: IOyuncu = {
   isim: "Burak",
   puan: 100,
@@ -21,7 +21,7 @@ const yeniOyuncu: IOyuncu = {
 
 //1) Kitap interface i tanimliyoruz
 interface IKitap {
-   readonly adi : string; //readonly keywordunu koyarak name alanini kilitledik, bu alan deger atandiktan sonra değistirilemez
+    readonly adi : string; //readonly keywordunu koyarak name alanini kilitledik, bu alan deger atandiktan sonra değistirilemez
     yazar : string;
     sayfaSayisi:number;
 }
