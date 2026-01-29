@@ -24,3 +24,7 @@ console.log(araba["motor"])
 //Bir object den veri okuma ikinci yol
 const dısardanGelen = "model";
 console.log("dynamic yontem", araba[dısardanGelen]);//
+
+console.log(araba)
+araba.model= ["Mitsubishi"]
+console.log(araba)
