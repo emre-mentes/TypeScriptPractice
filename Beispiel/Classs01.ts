@@ -4,16 +4,30 @@ class Otomobil {
   model: string;
   yil: number;
 
-  constructor (){
+  constructor (gelenMarka:string,gelenModel:string,gelenYil:number){
 
-    this.marka="Audi"
-    this.model="A6"
-    this.yil=2022;
+    this.marka=gelenMarka
+    this.model=gelenModel
+    this.yil=gelenYil
     
   }
 
+
+  marsaBas() :void{
+    console.log(this.marka +" " + "marsa basildi")
+
+  }
+
+
+
+
+
+
+
 }
 
-const audi = new Otomobil();
+const audi = new Otomobil("bmw","m5",2024);
 
 console.log(audi)
+
+audi.marsaBas()
