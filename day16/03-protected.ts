@@ -1,3 +1,4 @@
+
 //inheritance (kalitim) : Nesne Yönelimli Programlama (Object Oriented Programming) bir classin baska bir classin özelliklerini ve methodlarini miras almasini saglar.
 /*protected   ==> protected olanlar sadece aynı class içinde ve sadece child class (alt classlar) içinde kullanılabilir. Dışarıdan erişilemez.*/
 
