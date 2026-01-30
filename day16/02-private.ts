@@ -1,3 +1,4 @@
+
 //private     ==> private olanlar sadece aynı class içinde kullanılabilir. Dışarıdan ve child class'lardan erişilemez.
 
 class Personel {
