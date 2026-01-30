@@ -1,3 +1,4 @@
+
 /*
 Access Modifiers (Erişim Belirleyici) - TypeScript
 1) public
