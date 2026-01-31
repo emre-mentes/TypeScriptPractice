@@ -24,6 +24,7 @@ class Araba {
   //non static oldugu icin bu variabli görebilmek icin object olusturmak zorundasiniz
   //instance(=object) variable
   //non-static variable =>Bu variable her objecte göre güncellenebilir
+  
   public renk: string = "Beyaz";
 
   //non-static method
