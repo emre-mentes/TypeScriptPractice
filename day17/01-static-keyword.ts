@@ -24,7 +24,7 @@ class Araba {
   //non static oldugu icin bu variabli görebilmek icin object olusturmak zorundasiniz
   //instance(=object) variable
   //non-static variable =>Bu variable her objecte göre güncellenebilir
-  
+
   public renk: string = "Beyaz";
 
   //non-static method
@@ -42,6 +42,7 @@ class Araba {
 const benimArabam: Araba = new Araba();
 //benimArabam.tekerlekSayisi; static oldugu icin object üzerinden kullanamyiz
 //non-static class memberlarin kullanilisi
+
 benimArabam.renk = "yesil";
 console.log(benimArabam.renk);
 benimArabam.surucuBilgisi();
