@@ -19,6 +19,7 @@
 class Araba {
   //static oldugu icin class ismi yazarak nokta koyarak ulasabiliriz, object üzerinden değil
   //static variable => Bu variable bu classtan olusturacağımız tum objectler icin ortak bir variable dir
+  
   public static tekerlekSayisi: number = 4;
 
   //non static oldugu icin bu variabli görebilmek icin object olusturmak zorundasiniz
