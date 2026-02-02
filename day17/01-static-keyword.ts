@@ -13,7 +13,7 @@
  * gerek duyulmaz; ama arabanın rengine bakmak için o arabanın üretilmiş olması şarttır.
  * 5) static variable = Class Variable (Sınıf Değişkeni)
  *    non-static variable = Instance Variable (Örnek/Nesne Değişkeni)
- * 6) static bir methodun icinden non-static olan bir varibali kullanamasiniz
+ * 6) static bir methodun icinden non-static olan bir variable i kullanamazsiniz
  */
 
 class Araba {
