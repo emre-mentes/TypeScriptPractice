@@ -31,4 +31,5 @@ console.log(`Ogrenci notu ${not}. Sonuc ${sonuc}`);
 
 let urunFiyati: number = 90;
 let guncelFiyat = urunFiyati > 100 ? urunFiyati * 0.9 : urunFiyati;
+
 console.log(`Odemeniz gereken tutar ${guncelFiyat} TL`);
