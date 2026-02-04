@@ -55,4 +55,5 @@ const notlar: number[] = [45, 60, 30, 92, 50];
 const bursluVarMi: boolean = notlar.some((not) => not > 90);
 console.log(bursluVarMi);
 
+
 export {};
