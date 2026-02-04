@@ -56,4 +56,6 @@ const bursluVarMi: boolean = notlar.some((not) => not > 90);
 console.log(bursluVarMi);
 
 
+
+
 export {};
