@@ -59,4 +59,5 @@ console.log(upperCaseMeyveler); //[ 'ELMA', 'ARMUT' ]
 
 //GÖREV 3: Meyveler arrayimizdeki kelimelerin kaç harften oluştuğunu ölçüp number array olusturunuz
 const kelimeUzunluklari: number[] = meyveler.map((kelime) => kelime.length);
+
 console.log(kelimeUzunluklari); //[ 4, 5 ]
