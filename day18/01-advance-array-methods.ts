@@ -42,6 +42,7 @@ const numbers: number[] = [2, 4, 6];
 const sayilarinKareleri1: number[] = numbers.map((number) => {
   return number * number;
 });
+
 console.log("sayilarinKareleri", sayilarinKareleri1);
 
 //2.yol
