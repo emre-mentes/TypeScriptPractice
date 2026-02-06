@@ -53,6 +53,7 @@ const meyveler: string[] = ["elma", "armut"];
 const upperCaseMeyveler: string[] = meyveler.map((meyve) =>
   meyve.toUpperCase(),
 );
+
 console.log(upperCaseMeyveler); //[ 'ELMA', 'ARMUT' ]
 
 //GÖREV 3: Meyveler arrayimizdeki kelimelerin kaç harften oluştuğunu ölçüp number array olusturunuz
