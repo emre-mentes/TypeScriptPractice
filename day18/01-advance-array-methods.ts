@@ -51,6 +51,7 @@ console.log("sayilarinKareleri2", sayilarinKareleri2);
 
 //Görev 2 :  Verilen arraydaki Kelimeleri Büyük Harfe Dönüştürünüz
 const meyveler: string[] = ["elma", "armut"];
+
 const upperCaseMeyveler: string[] = meyveler.map((meyve) =>
   meyve.toUpperCase(),
 );
