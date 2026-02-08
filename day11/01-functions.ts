@@ -43,6 +43,7 @@ Ana Progrma akisi devam ediyor
 Ana Progrma akisi devam ediyor
 ==============
 `);
+
 mesajYaz();
 
 //Ornek : Verilen iki sayiyi toplayan ve sonucu return eden bir function tanimlayiniz
