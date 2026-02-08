@@ -1,3 +1,4 @@
+
 /**
  * -------------------------------------------------------------------------
  * static; bir özelliğin (property) veya metodun Nesneye (Arabaya) değil,
