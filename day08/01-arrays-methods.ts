@@ -40,7 +40,6 @@ console.log("sonOgrenci", sonOgrenci);
 let sonIkiOgrenci : string[] = ogrenciListesi.slice(-2);
 console.log("sonIkiOgrenci", sonIkiOgrenci);//[ 'Hüseyin', 'Suphi' ]
 
-
 //toString() methodu bir arrayin elemanlarini birlestirerek tek bir string haline getirir
 //join() methodun varsayilan haline benzer
 let ogrenciListesiString : string = ogrenciListesi.toString();
