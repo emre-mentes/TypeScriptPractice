@@ -59,6 +59,7 @@ function selamVer(ad : string ) : string{
     return `Merhaba, ${ad}! Hoş geldin.`;
 }
 
+
 const text : string = selamVer("Ayse");
 console.log(text);
 console.log(selamVer("Mehmet"));
