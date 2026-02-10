@@ -65,6 +65,7 @@ console.log(text);
 console.log(selamVer("Mehmet"));
 
 
+
 // GÖREV: Bir sayı alan ve sayının tek mi çift mi olduğunu string literal kullanarak anlamlı bir mesajla döndüren `tekMiCiftMi` fonksiyonunu yazarak method call yapiniz
 function tekMiCiftMi1(sayi:number) : string{
 
