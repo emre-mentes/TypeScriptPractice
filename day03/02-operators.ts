@@ -45,6 +45,6 @@ console.log("------ loose equality (==) &  strict equality(===) ----");
 let num1 : any =13;
 let num2 : any ="13";
 
-console.log(num1 == num2);//true (sadece degerleri karsilastirir tur farkini gözardı eder)
+console.log(num1 == num2);//true (sadece degerleri karsilastirir tür farkini gözardı eder)
 
-console.log(num1 === num2);//false (hem dagerleri karsilastirir hemde turleri karsilastirir)
+console.log(num1 === num2);//false (hem dagerleri karsilastirir hemde türleri karsilastirir)

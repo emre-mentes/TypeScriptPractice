@@ -6,7 +6,7 @@ bir TypeScript programı yazınız.
 
 KURALLAR:
 - Program, önce girilen notun GEÇERLİ olup olmadığını kontrol etmelidir.
-- Geçerli not aralığı: 0 – 100
+- Geçerli not aralığı: 0 - 100
 - Geçersiz bir not girilirse kullanıcı uyarılmalıdır.
 
 - Not aralığına göre derecelendirme yapılacaktır.
