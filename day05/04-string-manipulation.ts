@@ -5,7 +5,8 @@ console.log(`Cumlenin temizlenmemis halinin lengthi ${cumle.length} `);//Cumleni
 let temizCumle : string = cumle.trim();
 console.log(`Temizlenmis cumlenin lengthi ${temizCumle.length}`);//Temizlenmis cumlenin lengthi 44
 
-//replace(eski,yeni); verilen metin icinde soldan saga doğru tarama yapar ve aranan kelimeyi gördüğü anda onu yeni kelime ile değistirir ve operasyonu bitirir, metnin devamında aynı kelimeden olsa bile onlara dokunmaz
+//replace(eski,yeni); verilen metin icinde soldan saga doğru tarama yapar ve aranan kelimeyi gördüğü anda onu yeni kelime ile değistirir ve operasyonu bitirir, 
+// metnin devamında aynı kelimeden olsa bile onlara dokunmaz
 let yeniCumle: string = temizCumle.replace("TypeScript","JavaScript");
 console.log(`Ilk TypeScript i degistirir ${yeniCumle}`);//Ilk TypeScript i degistirir JavaScript öğreniyorum. TypeScript güçlüdür.
 
